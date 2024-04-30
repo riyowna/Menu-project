@@ -1,0 +1,125 @@
+body {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  background-color: #b1a93d;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.menu-list {
+  height: 595px;
+  width: 1300px;
+  border: 3px solid #1E2019;
+  background-color: #ccc91e;
+
+  color: #ebd512;
+  background-image: url(Pics/bg1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+ol {
+  display: inline-flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 60px;
+}
+
+ol, ul {
+  list-style-type: none;                
+
+}
+
+.menu-list::-webkit-scrollbar {
+  display: none;
+}
+
+.material-symbols-outlined {
+  vertical-align: middle;
+  margin: -5px 22px -5px 22px;
+  border: 1px solid gold;
+  padding: 8px;
+  border-radius: 50%;
+  transform: scale(1.4);
+  background-color: #47370850;
+}
+
+.title {
+  color: #e4cd01;
+  height: 100px;
+  width: auto;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding: 12px;
+  font-family: "Anton", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 44px;
+  border-bottom: 1px solid gold;
+}
+
+li.options {
+  display: flex;
+  flex-direction: row-reverse;
+  text-align: center;
+  justify-content: center;
+  height: 120px;
+  width: 450px;
+  margin-top: 12px;
+  margin-right: 22px;
+  border-radius: 12px;
+  padding: 12px;
+  font-family: "Montserrat", sans-serif;
+  font-size: large;
+  font-weight: bold;
+  color: #eca712;
+  background-color: rgb(19, 16, 9);
+  border: 1px solid rgb(175, 204, 13);
+  transition: 200ms;
+}
+
+li.options:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+p {
+  margin: 12px;
+}
+
+p.steps {
+  height: auto;
+  width: max-content;
+  font-family: "Anton", sans-serif;
+  font-size: 22px;
+  color: #d6c101;
+}
+
+img {
+  height: 120px;
+  margin-left: 12px;
+  border: 1px solid rgb(255, 145, 0);
+  border-radius: 12px;
+}
+
+.li-item {
+  font-family: "Pixelify Sans", sans-serif;
+  font-weight: 400;
+  height: 120px;
+  width: 500px;
+  margin: 0;
+  padding: 0 1px 0 2px;
+  border: 1px inset rgb(248, 165, 12);
+  border-radius: 12px;
+  background-color: #201e04;
+  text-wrap: wrap;
+}
+
+.desc {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 15px;
+}
